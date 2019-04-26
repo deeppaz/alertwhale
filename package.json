@@ -1,0 +1,23 @@
+{
+  "name": "alert_whale_api",
+  "version": "1.0.0",
+  "description": "whale_alert with js restapi",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deeppaz/alertwhale.git"
+  },
+  "author": "jimmy_sensei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deeppaz/alertwhale/issues"
+  },
+  "homepage": "https://github.com/deeppaz/alertwhale#readme",
+  "dependencies": {
+    "electron": "^5.0.0"
+  }
+}
