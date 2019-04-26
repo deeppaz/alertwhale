@@ -25,7 +25,7 @@ bilgi amaçlı yapılmıştır, tüm sorumluluk size aittir
 - API Key kopyala ✅ 
 - API Key index.html 5. satıra yapıştır
 
-![1](http://i67.tinypic.com/2mdl361.png)
+![1](http://i63.tinypic.com/2ntjtaw.png)
 
 
 ### ULASABILIRSINIZ:
