@@ -1,27 +1,20 @@
 <html>
     <script type="text/javascript" src="crypto-js.js"></script>
     <script>
-        var burl = 'https://api.whale-alert.io';
-        var endPoint = '/v1/status';
-        var dataQueryString = 'min_value=10000&start=1550237797=' + Date.now();
+        var burl = "https://api.whale-alert.io/v1/status?";
+        var dataQueryString = "api_key=YOUR API GOES HERE API BURAYA ";
 
-        var keys = {
-            'api_key' : 'verilenapi givenapi'
-        }
 
-        var signature = CryptoJS.HmacSHA256(dataQueryString, keys['api_key']).toString(CryptoJS.enc.Hex);
+        var url = burl + dataQueryString;
 
         var ourRequest = new XMLHttpRequest();
 
-        var url = burl + endPoint + '?' + dataQueryString + '&signature=' + signature;
-
-        ourRequest.open('GET', url, true);
-        ourRequest.setRequestHeader('X-WA-API-KEY',keys['api_key']);
+        ourRequest.open('GET',url,true);
 
         ourRequest.onload = function(){
-            ourData = JSON.parse(ourRequest.responseText);
-            console.log(ourData);
+            console.log(ourRequest.responseText);
         }
         ourRequest.send();
+
     </script>
 </html>
