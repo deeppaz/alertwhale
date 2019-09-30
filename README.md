@@ -25,8 +25,6 @@ bilgi amaçlı yapılmıştır, tüm sorumluluk size aittir
 - API Key kopyala ✅ 
 - API Key index.html 5. satıra yapıştır
 
-![1](http://i63.tinypic.com/2ntjtaw.png)
-
 
 ### ULASABILIRSINIZ:
 - ![](http://icons.iconarchive.com/icons/iconsmind/outline/48/Mail-icon.png) *deeppaz@hotmail.com*
